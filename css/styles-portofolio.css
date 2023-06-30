@@ -6,6 +6,8 @@ body {
 
 .main-logo {
     text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
 
 }
 
@@ -19,3 +21,8 @@ body {
     background-color: aquamarine;
     text-decoration: none;
 }
+
+.nine-pictures {
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
