@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.main-logo {
+    text-align: center;
+
+}
+
+.colored-word {
+    color: #2196F3;
+
+
+}
+
+.underline-none {
+    background-color: aquamarine;
+    text-decoration: none;
+}
