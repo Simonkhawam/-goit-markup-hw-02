@@ -11,26 +11,20 @@ body {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-
-}
-
-.first-word-navbar {
-    color: #2196F3;
-    text-decoration: none;
-}
-
-a:link {
-    color: aquamarine;
-}
-
-
-
-a:hover {
-    color: yellowgreen;
 }
 
 a:active {
-    color: darkorange
+    color: #2196F3
+}
+
+.first-word-navbar:hover,
+.first-word-navbar:focus {
+    color: #2196F3;
+}
+
+.first-word-navbar {
+    color: black;
+    text-decoration: none;
 }
 
 .contact-link-text:hover,
@@ -75,6 +69,10 @@ a:active {
 }
 
 
+.second-word-navbar:hover,
+.second-word-navbar:focus {
+    color: #2196F3;
+}
 
 .second-word-navbar {
     color: black;
