@@ -13,6 +13,17 @@ body {
     align-items: left;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", "Arial", "Helvetica", "sans-serif";
+    font-weight: 700;
+    color: #212121
+}
+
 a:active {
     color: #2196F3
 }
@@ -78,3 +89,28 @@ a:active {
     color: black;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
