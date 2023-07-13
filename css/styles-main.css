@@ -4,7 +4,7 @@ body {
 
 
     color: #212121;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "sans-serif";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.42em;
@@ -156,11 +156,11 @@ a:active {
 
 .button-one {
     border-radius: 4px;
-    background: #F5F4FA;
+    background: #2196F3;
     width: 120px;
     height: 38px;
     flex-shrink: 0;
-    color: #212121;
+    color: white;
     text-align: center;
     font-family: Roboto "sans-serif";
     font-size: 16px;
@@ -168,6 +168,7 @@ a:active {
     font-weight: 8000px;
     line-height: 26px;
     letter-spacing: 0.48px;
+    
 }
 
 .button-two {
@@ -184,6 +185,7 @@ a:active {
     font-weight: 8000px;
     line-height: 26px;
     letter-spacing: 0.48px;
+    
 }
 
 .button-three {
@@ -268,3 +270,9 @@ a:active {
 .button-five {
     border: none;
 }
+
+.button-bar:hover,
+.button-bar:focus {
+    color: #2196F3;
+}
+
