@@ -116,7 +116,11 @@ a:active {
     text-decoration: none;
 }
 
-.menu-top-container {}
+.menu-top-container {
+    width: 1600px;
+    height: 80px;
+    flex-shrink: 0;
+}
 
 
 .image-description {
