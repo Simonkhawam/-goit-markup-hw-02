@@ -1,8 +1,20 @@
 body {
-    font-family: 'Roboto', sans-serif,
-        'Raleway', sans-serif 'Times New Roman', Times, serif;
-    color: #212121;
 
+    color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.42em;
+    min-width: 320px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-direction: column;
+    height: 100%;
+    color: #757575
 }
 
 .header {
@@ -107,28 +119,127 @@ a:active {
 .menu-top-container {}
 
 
-
-
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.42em;
-    min-width: 320px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
+.image-description {
+    color: #212121;
+    font-family: Roboto "sans-serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 11200px;
+    line-height: 36px;
+    letter-spacing: 1.08px;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
+    width: 322px;
     flex-direction: column;
-    height: 100%;
-    color: #757575
+    flex-shrink: 0;
 }
 
+.paragraph-layout {
+    color: #757575;
+    font-family: Roboto "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 6400px;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+    display: flex;
+    width: 322px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
 
+.button-one {
+    border-radius: 4px;
+    background: #F5F4FA;
+    width: 120px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 8000px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
 
+.button-two {
+    border-radius: 4px;
+    background: #F5F4FA;
+    width: 120px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 8000px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
 
+.button-three {
+    border-radius: 4px;
+    background: #F5F4FA;
+    width: 120px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 8000px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
+
+.button-four {
+    border-radius: 4px;
+    background: #F5F4FA;
+    width: 120px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 8000px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
+
+.button-five {
+    border-radius: 4px;
+    background: #F5F4FA;
+    width: 120px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 8000px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
+
+.button-bar {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    border: transparent;
+    
+}
 
