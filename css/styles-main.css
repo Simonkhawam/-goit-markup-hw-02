@@ -50,7 +50,13 @@ h6 {
 }
 
 .colored-word {
-    color: #2196F3
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 
 a:active {
@@ -168,7 +174,7 @@ a:active {
     font-weight: 8000px;
     line-height: 26px;
     letter-spacing: 0.48px;
-    
+
 }
 
 .button-two {
@@ -185,7 +191,7 @@ a:active {
     font-weight: 8000px;
     line-height: 26px;
     letter-spacing: 0.48px;
-    
+
 }
 
 .button-three {
@@ -276,3 +282,62 @@ a:active {
     color: #2196F3;
 }
 
+
+.footer {
+    background: #2F303A;
+    width: 1600px;
+    height: 251px;
+    flex-shrink: 0;
+}
+
+.colored-word-studio {
+    color: white;
+}
+
+.colored-word-1 {
+    color: #2196F3;
+    font-family: 'Raleway', "sans-serif";
+}
+
+.colored-word-2 {
+    color: white;
+    font-family: 'Raleway', "sans-serif";
+}
+
+.colored-word-1-2 {
+    font-family: 'Raleway', "sans-serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 11200px;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.address {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    display: flex;
+    width: 207px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.email-phone {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 6400px;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    display: flex;
+    width: 231px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
