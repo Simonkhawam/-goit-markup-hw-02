@@ -238,8 +238,26 @@ a:active {
     line-height: 26px;
     letter-spacing: 0.48px;
     border-radius: 4px;
-    background: #F5F4FA;
-    border: transparent;
-    
+    background: white;
+
 }
 
+.button-one {
+    border: none;
+}
+
+.button-two {
+    border: none;
+}
+
+.button-three {
+    border: none;
+}
+
+.button-four {
+    border: none;
+}
+
+.button-five {
+    border: none;
+}
