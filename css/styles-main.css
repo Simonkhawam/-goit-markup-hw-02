@@ -423,7 +423,8 @@ a:active {
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
-    
+
+
 }
 
 .btn {
@@ -435,9 +436,10 @@ a:active {
     flex-shrink: 0;
     text-align: center;
 }
-.button-service{
+
+.button-service {
 
     padding-left: 700px;
     padding-right: 700px;
-}
 
+}
