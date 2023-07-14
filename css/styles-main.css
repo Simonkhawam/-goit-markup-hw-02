@@ -373,11 +373,10 @@ a:active {
     letter-spacing: 0.78px;
 }
 
-.backgtound-picture {
+.background-picture {
     background: #2F303A;
     width: 1600px;
     height: 600px;
-    flex-shrink: 0;
 }
 
 .text {
@@ -394,8 +393,10 @@ a:active {
     width: 696px;
     flex-direction: column;
     flex-shrink: 0;
-    padding-left: 280px;
+    padding-left: 452px;
+    padding-right: 452px;
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 
@@ -410,9 +411,33 @@ a:active {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.button-service {
-padding-left: 540px;
 
 }
+
+.text-request {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    
+}
+
+.btn {
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    text-align: center;
+}
+.button-service{
+
+    padding-left: 700px;
+    padding-right: 700px;
+}
+
