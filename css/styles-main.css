@@ -311,6 +311,7 @@ a:active {
     font-weight: 11200px;
     line-height: normal;
     letter-spacing: 0.78px;
+
 }
 
 .address {
@@ -341,3 +342,34 @@ a:active {
     flex-direction: column;
     flex-shrink: 0;
 }
+
+.footer__content {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.main-logo {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.footer-logo {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
