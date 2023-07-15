@@ -135,8 +135,8 @@ ul {
 .second-word-navbar,
 .third-word-navbar,
 .header-contacts,
-.qualities-list,
-.team-list,
+.About-us-section,
+.our-team-section,
 .button-list,
 .projects-list>ul {
 
@@ -145,6 +145,66 @@ ul {
     display: flex;
     gap: 10px;
 }
+
+.About-us-section__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 3%;
+}
+
+.About-us-section__description {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 3%;
+}
+
+.what-we-do-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.18;
+    letter-spacing: 3%;
+    text-align: center;
+
+}
+
+.title-what-we-do {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.18;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.18;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.our-team-section {
+    color: var(--title-color);
+}
+
+.our-team-members {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.our-team-departmant {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
 
 
 .image-description {
