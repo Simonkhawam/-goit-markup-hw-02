@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
     <!--Google fonts links-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,135 +14,135 @@
         rel="stylesheet">
     <!--Styles tag-->
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Homework</title>
+
     <link rel="stylesheet" href="css/styles-main.css">
 </head>
 
 <body>
-    <header class="header">
-        <!--Top line-->
-        <div class="main-logo">
-            <a href="index.html"><img class="logo-header" src="images/portofolio/WebStudio.svg" alt="WebStudio"></a>
-        </div>
-        </div>
-
-
-        <!--top line-->
-        <div class="menu-top-container">
-            <nav>
-                <ul class="nav-bar">
+    <!--top header-->
+    <header class="header-logo">
+        <!--Top line logo-->
+        <a href="index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
+        <!--Navigation bar-->
+        <nav>
+            <ul class="nav-bar">
+                <li>
                     <a href="index.html" class="first-word-navbar">Studio</a>
+                </li>
+                <li>
                     <a href="portfolio.html" class="second-word-navbar">Portfolio</a>
-                    <span>Contacts</span>
-                </ul>
+                </li>
+                <li>
+                    <a href="index.html" class="third-word-navbar">Contacts</a>
+                </li>
+            </ul>
 
-            </nav>
-            <a class="contact-link-mail" href="mailto:info@devstudio.com">
-                <span class="contact-link-mail">info@devstudio.com</span>
-            </a>
-
-            <a class="contact-link-text" href="tel:+1 212-772-4150">
-                <span class="contact-link-text">+1 212-772-4150</span>
-            </a>
-            <hr>
+        </nav>
+        <!--Link to contacts-->
+        <ul class="header-contacts">
+            <li>
+                <a href="maito:info@devstudio.com" class="header-contacts__website">info@devstudio.com</a>
+                </a>
+            </li>
+            <li>
+                <a href="tel:+12127724150" class="header-contacts__phonenumber">+1 212-772-4150</a>
+                </a>
+            </li>
+        </ul>
         </div>
-
-        <!--middile part of web page background pic with a centered test-->
-        <main>
-            <section class="background-picture">
-                <div class="text-button__togther">
-
-                    <body>
-                        <h1 class="text">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-                        <div class="button-service">
-                            <button class="btn"><span class="text-request">Request our service</span></button>
-                        </div>
-
-                    </body>
-                </div>
-            </section>
     </header>
 
-    <!--sectiunea 'About' a site-ului-->
-    <section>
-        <div>
+    <!--middile part of web page background pic with a centered test-->
+    <main>
+        <section class="main-title-section">
             <div>
-                <h4>ATTENTION TO DETAILS</h4>
-                <p>We go into all the details and processes of your business to develop a customized solution.</p>
+                <h1 class="main-title__discription">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
             </div>
+            <button type="button" class="main-title__button">Request our service</button>
+
+        </section>
+
+
+        <!--sectiunea 'About' a site-ului-->
+        <section>
             <div>
-                <h4>PUNCTUALITY</h4>
-                <p>With us, you can feel safe and secure. An important principle of the company: respect your time
-                    and
-                    deadlines.</p>
+                <div>
+                    <h4>ATTENTION TO DETAILS</h4>
+                    <p>We go into all the details and processes of your business to develop a customized solution.</p>
+                </div>
+                <div>
+                    <h4>PUNCTUALITY</h4>
+                    <p>With us, you can feel safe and secure. An important principle of the company: respect your time
+                        and
+                        deadlines.</p>
+                </div>
+                <div>
+                    <h4>PLANNING</h4>
+                    <p>You will be able to observe and participate in every phase of solution development and
+                        implementation.
+                    </p>
+                </div>
+                <div>
+                    <h4>MODERN TECHNOLOGIES</h4>
+                    <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
+                </div>
             </div>
+        </section>
+
+        <!--sectiunea WHAT WE DO si cele trei poze-->
+
+        <section>
             <div>
-                <h4>PLANNING</h4>
-                <p>You will be able to observe and participate in every phase of solution development and
-                    implementation.
-                </p>
+
+                <h2>What we do</h2>
+                <div><img src="images/img-11.jpg" alt="app Designer" height="294px" width="370px" /></div>
+                <div><img src="images/img-12.jpg" alt="new Technologies" height="294px" width="370px" /></div>
+                <div><img src="images/img-13.jpg" alt="app devolopment" height="294px" width="370px" /></div>
+
             </div>
+        </section>
+        <!--section our team si cele patru poze -->
+
+        <section>
             <div>
-                <h4>MODERN TECHNOLOGIES</h4>
-                <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
+                <h2>Our Team</h2>
+                <div>
+                    <ul>
+                        <img src="images/img.jpg" alt="Christopher's picture :)" height="260px" width="270px" />
+
+                        <span>Christopher Walker</span>
+                        <em>Product Designer</em>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <img src="images/img-2.jpg" alt="Kylie's picture :)" height="260px" width="270px" />
+
+                        <span>Kylie Evans</span>
+
+                        <em>Frontend Developer</em>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <img src="images/img-3.jpg" alt="Ryan's picture" height="260px" width="270px" />
+
+                        <span>Ryan Harris</span>
+
+                        <em>Marketing</em>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <img src="images/img-4.jpg" alt="Tyler's picture" height="260px" width="270px" />
+
+                        <span>Tyler Moore</span>
+
+                        <em>UI Designer</em>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!--sectiunea WHAT WE DO si cele trei poze-->
-
-    <section>
-        <div>
-
-            <h2>What we do</h2>
-            <div><img src="images/img-11.jpg" alt="app Designer" height="294px" width="370px" /></div>
-            <div><img src="images/img-12.jpg" alt="new Technologies" height="294px" width="370px" /></div>
-            <div><img src="images/img-13.jpg" alt="app devolopment" height="294px" width="370px" /></div>
-
-        </div>
-    </section>
-    <!--section our team si cele patru poze -->
-
-    <section>
-        <div>
-            <h2>Our Team</h2>
-            <div>
-                <ul>
-                    <img src="images/img.jpg" alt="Christopher's picture :)" height="260px" width="270px" />
-
-                    <span>Christopher Walker</span>
-                    <em>Product Designer</em>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <img src="images/img-2.jpg" alt="Kylie's picture :)" height="260px" width="270px" />
-
-                    <span>Kylie Evans</span>
-
-                    <em>Frontend Developer</em>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <img src="images/img-3.jpg" alt="Ryan's picture" height="260px" width="270px" />
-
-                    <span>Ryan Harris</span>
-
-                    <em>Marketing</em>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <img src="images/img-4.jpg" alt="Tyler's picture" height="260px" width="270px" />
-
-                    <span>Tyler Moore</span>
-
-                    <em>UI Designer</em>
-                </ul>
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
 
     <!--Footer section-->
