@@ -134,7 +134,7 @@ ul {
 .header-contacts,
 .About-us-section,
 .our-team-section,
-.button-list,
+.button-bar,
 .projects-list>ul {
     list-style: none;
     display: flex;
@@ -161,6 +161,9 @@ ul {
     line-height: 1.18;
     letter-spacing: 3%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -230,127 +233,120 @@ ul {
     flex-shrink: 0;
 }
 
-.button-one {
-    border-radius: 4px;
-    background: #2196F3;
-    width: 120px;
-    height: 38px;
-    flex-shrink: 0;
-    color: white;
-    text-align: center;
-    font-family: Roboto "sans-serif";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 8000px;
-    line-height: 26px;
-    letter-spacing: 0.48px;
 
-}
 
-.button-two {
-    border-radius: 4px;
-    background: #F5F4FA;
-    width: 120px;
-    height: 38px;
-    flex-shrink: 0;
-    color: #212121;
-    text-align: center;
-    font-family: Roboto "sans-serif";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 8000px;
-    line-height: 26px;
-    letter-spacing: 0.48px;
 
-}
-
-.button-three {
-    border-radius: 4px;
-    background: #F5F4FA;
-    width: 120px;
-    height: 38px;
-    flex-shrink: 0;
-    color: #212121;
-    text-align: center;
-    font-family: Roboto "sans-serif";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 8000px;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-}
-
-.button-four {
-    border-radius: 4px;
-    background: #F5F4FA;
-    width: 120px;
-    height: 38px;
-    flex-shrink: 0;
-    color: #212121;
-    text-align: center;
-    font-family: Roboto "sans-serif";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 8000px;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-}
-
-.button-five {
-    border-radius: 4px;
-    background: #F5F4FA;
-    width: 120px;
-    height: 38px;
-    flex-shrink: 0;
-    color: #212121;
-    text-align: center;
-    font-family: Roboto "sans-serif";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 8000px;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-}
 
 .button-bar {
-
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto "sans-serif";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-    border-radius: 4px;
-    background: white;
-
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
-.button-one {
+.button:hover,
+.button:focus {
+    background-color: var(--brand-color);
+    color: var(--background-color);
+}
+
+.button {
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
+    background-color: #f5f4fa;
+    color: var(--title-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+}
+
+.button button-one__all {
+
+    width: 64px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+}
+
+.button-one__all {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    width: 64px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.button-bar-focus {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
 .button-two {
-    border: none;
+    width: 120px;
+    height: 38px;
+    flex-shrink: 0;
 }
 
 .button-three {
-    border: none;
+    width: 83px;
+    height: 38px;
+    flex-shrink: 0;
 }
 
 .button-four {
-    border: none;
+    width: 96px;
+    height: 38px;
+    flex-shrink: 0;
 }
 
 .button-five {
-    border: none;
+    width: 121px;
+    height: 38px;
 }
 
-.button-bar:hover,
-.button-bar:focus {
-    color: #2196F3;
+.nine-pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
+
+.nine-cards {
+    border: 1px solid #eee;
+    display: flex;
+    text-align: left;
+}
+
+.nine-cards li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.image-description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.paragraph-layout {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
 
 
 .footer {
