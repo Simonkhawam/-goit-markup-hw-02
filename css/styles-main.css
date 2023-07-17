@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap');
 
 body {
-
-
     color: #212121;
     font-family: "Roboto", "sans-serif";
     font-weight: 400;
@@ -46,7 +44,6 @@ body {
 
 }
 
-
 h1,
 h2,
 h3,
@@ -58,7 +55,6 @@ h6 {
     color: #212121
 }
 
-
 .first-word-navbar:hover,
 .first-word-navbar:focus {
     color: #2196F3
@@ -67,7 +63,6 @@ h6 {
 .first-word-navbar {
     color: #2196F3;
 }
-
 
 .contacts:hover,
 .first-word-navbar:hover,
@@ -81,7 +76,6 @@ h6 {
 }
 
 .header-contacts__website {
-
     color: #2196F3;
     font-size: 14px;
     font-family: Roboto;
@@ -107,8 +101,6 @@ ul {
     text-decoration: none;
 }
 
-
-
 .second-word-navbar {
     color: black;
     text-decoration: none;
@@ -118,7 +110,6 @@ ul {
     color: #000;
 
 }
-
 .header-logo {
     border: 1px solid #ececec;
     display: flex;
@@ -203,8 +194,6 @@ ul {
     text-align: center;
 }
 
-
-
 .image-description {
     color: #212121;
     font-family: Roboto "sans-serif";
@@ -232,10 +221,6 @@ ul {
     flex-direction: column;
     flex-shrink: 0;
 }
-
-
-
-
 
 .button-bar {
     display: flex;
@@ -347,8 +332,6 @@ ul {
     text-align: left;
 }
 
-
-
 .footer {
     background: #2F303A;
     width: 1600px;
@@ -383,8 +366,6 @@ ul {
     letter-spacing: 0.78px;
 
 }
-
-
 
 .email-phone {
     color: rgba(255, 255, 255, 0.60);
@@ -513,7 +494,6 @@ ul {
     left: 50%;
     transform: translate(-60%, -50%);
 }
-
 
 .logo {
     text-decoration: none;
