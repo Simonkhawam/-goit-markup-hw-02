@@ -107,10 +107,7 @@ ul {
     text-decoration: none;
 }
 
-.second-word-navbar:hover,
-.second-word-navbar:focus {
-    color: #2196F3;
-}
+
 
 .second-word-navbar {
     color: black;
@@ -139,8 +136,6 @@ ul {
 .our-team-section,
 .button-list,
 .projects-list>ul {
-
-
     list-style: none;
     display: flex;
     gap: 10px;
@@ -369,6 +364,10 @@ ul {
     color: white;
 }
 
+.logo-second-color {
+    color: var(--background-color);
+}
+
 .colored-word-1 {
     color: #2196F3;
     font-family: 'Raleway', "sans-serif";
@@ -389,20 +388,7 @@ ul {
 
 }
 
-.address {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    display: flex;
-    width: 207px;
-    height: 16px;
-    flex-direction: column;
-    flex-shrink: 0;
-}
+
 
 .email-phone {
     color: rgba(255, 255, 255, 0.60);
@@ -418,26 +404,72 @@ ul {
     flex-shrink: 0;
 }
 
-.footer__content {
-    color: #2196F3;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
+.footer {
+    background-color: #2f303a;
+    width: 1600px;
+    height: 251px;
+    flex-shrink: 0;
 }
 
+.footer-contact {
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 3%;
+    list-style: none;
+}
 
+.footer-address {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
 
-.footer-logo {
-    color: #2196F3;
-    font-family: Raleway;
-    font-size: 26px;
+}
+
+.footer-address__location {
+    color: var(--background-color);
+    line-height: 1.18;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    color: #FFF;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
+    font-weight: 400;
+    display: flex;
+    width: 207px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.footer-address__contacts {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    color: #FFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    width: 207px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.footer-address__contacts:hover,
+.footer-address__contacts:focus {
+    color: var(--brand-color);
+}
+
+.footer-address__location:hover,
+.footer-address__location:focus {
+    color: var(--brand-color);
 }
 
 .main-title-section {
