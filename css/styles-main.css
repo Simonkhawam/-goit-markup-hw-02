@@ -84,6 +84,7 @@ h6 {
     line-height: normal;
     letter-spacing: 0.28px;
     text-decoration: none;
+
 }
 
 ul {
@@ -155,7 +156,20 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.three-images,
+.our-team-section{
+   
+    padding: 30px;
+    margin-left: 45px;
 
+
+}
+.background-team{
+    background-color: rgba(245, 244, 250, 1);
+    width: 1600px;
+        height: 648px;
+        flex-shrink: 0;
 }
 
 .title-what-we-do {
@@ -171,7 +185,9 @@ ul {
     font-size: 36px;
     line-height: 1.18;
     letter-spacing: 3%;
-    text-align: center;
+    padding-top: 90px;
+    padding-left: 560px;
+
 }
 
 .our-team-section {
@@ -337,6 +353,11 @@ ul {
     width: 1600px;
     height: 251px;
     flex-shrink: 0;
+    padding-top: 60px;
+    padding-left: 215px;
+}
+.logo{
+    padding-left: 35px;
 }
 
 .colored-word-studio {
@@ -428,7 +449,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 3%;
-    color: #FFF;
+   
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -493,6 +514,8 @@ ul {
     top: 60%;
     left: 50%;
     transform: translate(-60%, -50%);
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 .logo {
