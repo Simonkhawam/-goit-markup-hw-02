@@ -244,6 +244,7 @@ ul {
     justify-content: center;
 }
 
+
 .button:hover,
 .button:focus {
     background-color: var(--brand-color);
@@ -307,6 +308,7 @@ ul {
     width: 121px;
     height: 38px;
 }
+
 
 .nine-pictures {
     display: grid;
@@ -400,6 +402,11 @@ ul {
     width: 231px;
     flex-direction: column;
     flex-shrink: 0;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .footer {
